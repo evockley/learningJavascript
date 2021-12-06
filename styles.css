@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(41, 41, 41);
+    padding-left: 100px;
+    padding-top: 10px;
+
+}
+
+/* TYPOGRAPHY */
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: tomato;
+}
+
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: snow;
+}
+
+h3 {
+    font-family: 'Quicksand';
+    font-weight: 700;
+    color: tomato;
+    padding: 0;
+    margin: 0;
+}
+
+h4 {
+    font-family: 'Quicksand', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+}
+
+li {
+    list-style: none;
+}
+
+
+.lesson {
+    background-color: rgb(245, 245, 245);
+    margin: 24px 100px;
+    padding: .5em;
+    box-shadow: 0 0 12px lightgray;
+    border-radius: 4px;
+}
+
+.lesson2div {
+    display: flex;
+    gap: 24px
+}
