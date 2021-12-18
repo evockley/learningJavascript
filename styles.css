@@ -41,16 +41,38 @@ li {
     list-style: none;
 }
 
-
 .lesson {
     background-color: rgb(245, 245, 245);
-    margin: 24px 100px;
+    margin: 24px auto;
     padding: .5em;
     box-shadow: 0 0 12px lightgray;
+    box-sizing: content-box;
     border-radius: 4px;
+    max-width: 1000px;
+    border-left: solid 1px tomato;
+    border-right: solid 1px rgb(245, 245, 245);
+    transition: ease-out 100ms
+}
+
+.lesson:hover {
+    border-left: solid 3px tomato;
+    border-right: solid 3px rgb(245, 245, 245);
 }
 
 .lesson2div {
     display: flex;
     gap: 24px
+}
+
+
+/* BUTTONS */
+
+#exampleButton1 {
+    border: 2px solid tomato;
+    background: #f9f9f9;
+    padding: 1em 3em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    border-radius: 40px;
+    cursor: pointer;
 }
